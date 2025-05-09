@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#F2F7F5] via-[#E6EBE0] to-[#DDE2C6] flex flex-col items-center justify-center px-6 text-center">
+      
       <motion.div
         className="mb-8"
         initial={{ opacity: 0, y: -40 }}
